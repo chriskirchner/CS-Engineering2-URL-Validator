@@ -1,21 +1,38 @@
-# f16-project-smalleyt
-Tiffany Smalley,
-Christopher Paul King,
-Adrian Buenavista,
-Christopher Kirchner
+# Testing the Apache URL Validator
 
-## RUNNING MUTATION TESTS
+<p align="center">
+<a href="https://asciinema.org/a/175539">
+<img width=100% src="Random.PNG">
+</a>
+</p>
 
-### Testing Input Domain Partitioning:
-within folder mutateIDP- run "mvn org.pitest:pitest-maven:mutationCoverage"
-Results of previous run can be seen in 'mutateIDPResults.html'
+## MUTATION TESTS
 
-### Testing Random Testing:
-within folder mutateRandom- run "mvn org.pitest:pitest-maven:mutationCoverage"
-Results of previous run can be seen in 'mutateRandomResults.html'
+### Testing Input Domain Partitioning
 
-## REMAINING MVN TESTS (RANDOM and IDP)
+```sh
+cd ./mutateIDP
+mvn org.pitest:pitest-maven:mutationCoverage
+firefox mutateIDPResults.html
+```
 
-within root folder - run 
-"mvn clean"
-"mvn compile test"
+### Testing Random Testing
+
+```sh
+cd mutateRandom
+mvn org.pitest:pitest-maven:mutationCoverage
+mutateRandomResults.html
+```
+
+## Random and IDP Tests
+
+```sh
+mvn clean
+mvn compile test
+```
+
+## Credits
+- Tiffany Smalley,
+- Christopher Paul King,
+- Adrian Buenavista,
+- Christopher Kirchner
