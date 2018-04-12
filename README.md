@@ -26,6 +26,7 @@ a top level domain partition (the .com in www.google.com),
 a query partition (the q=domain in https://www.google.com/search?q=domain), 
 and a port partition (the :8080 in portquiz.net:8080/).
 
+### Random and IDP Tests
 ```sh
 mvn clean
 mvn compile test
