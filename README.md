@@ -59,7 +59,7 @@ mutateRandomResults.html
 
 ### [Full Report](REPORT.md)
 
-## Credits
+### Credits
 - Tiffany Smalley (IDP)
 - Christopher Paul King (Mutation)
 - Adrian Buenavista (Static)
