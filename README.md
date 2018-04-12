@@ -52,10 +52,11 @@ mutateRandomResults.html
 ```
 
 ### Tools
+-[Maven](https://maven.apache.org/)
+-[FindBugs (Static)](http://findbugs.sourceforge.net/)
+-[Pitest (Mutation)](http://pitest.org/)
 
-
-### Full Report
-[Report](REPORT.md)
+### [Full Report](REPORT.md)
 
 ## Credits
 - Tiffany Smalley (IDP)
