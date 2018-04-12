@@ -1,6 +1,6 @@
 # Testing the Apache URL Validator
 
-*Non-maven example of testing the Apache URL Validator using random URL generatio**
+*Non-maven example of testing the Apache URL Validator using random URL generation**
 <p align="center">
 <a href="https://asciinema.org/a/175539">
 <img width=100% src="Random.PNG">
@@ -51,8 +51,11 @@ mvn org.pitest:pitest-maven:mutationCoverage
 mutateRandomResults.html
 ```
 
+### Tools
+
+
 ### Full Report
-[Report](Report.md)
+[Report](REPORT.md)
 
 ## Credits
 - Tiffany Smalley (IDP)
