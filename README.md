@@ -1,6 +1,6 @@
 # Testing the Apache URL Validator
 
-*Non-maven example of testing the Apache URL Validator using random URL generation**
+*Non-maven example of testing the Apache URL Validator using random URL generation*
 <p align="center">
 <a href="https://asciinema.org/a/175539">
 <img width=100% src="Random.PNG">
