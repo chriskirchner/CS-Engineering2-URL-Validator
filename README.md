@@ -34,7 +34,7 @@ mvn compile test
 
 ## MUTATION TESTS
 
-The quality of test coverage was be evaluated by mutations to programs that should elicit a bug.
+The quality of test coverage was evaluated by mutations to the URL Validator that should elicit a bug.
 
 ### Input Domain Partitioning
 
@@ -53,9 +53,9 @@ mutateRandomResults.html
 ```
 
 ### Tools
--[Maven](https://maven.apache.org/)
--[FindBugs (Static)](http://findbugs.sourceforge.net/)
--[Pitest (Mutation)](http://pitest.org/)
+- [Maven](https://maven.apache.org/)
+- [FindBugs (Static)](http://findbugs.sourceforge.net/)
+- [Pitest (Mutation)](http://pitest.org/)
 
 ### [Full Report](REPORT.md)
 
