@@ -10,7 +10,7 @@
 ## Overview
 
 A buggy version of the Apache URL validator is tested against a reference 
-[Apache Commons Validator](https://mvnrepository.com/artifact/commons-validator/commons-validator/1.5.1), 1.5.1.
+[Apache Commons Validator, 1.5.1](https://mvnrepository.com/artifact/commons-validator/commons-validator/1.5.1).
 Input domain partitioning (IDP), random, mutation, and static analysis are conducted.
 
 ## Random and IDP Tests
