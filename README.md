@@ -26,7 +26,7 @@ a top level domain partition (the .com in www.google.com),
 a query partition (the q=domain in https://www.google.com/search?q=domain), 
 and a port partition (the :8080 in portquiz.net:8080/).
 
-### Random and IDP Tests
+### Run Random and IDP Tests
 ```sh
 mvn clean
 mvn compile test
@@ -36,7 +36,7 @@ mvn compile test
 
 The quality of test coverage was evaluated by mutations to the URL Validator that should elicit a bug.
 
-### Input Domain Partitioning
+### Run Input Domain Partitioning with Mutations
 
 ```sh
 cd mutateIDP/
@@ -44,7 +44,7 @@ mvn org.pitest:pitest-maven:mutationCoverage
 firefox mutateIDPResults.html
 ```
 
-### Testing Random Testing
+### Run Random Testing with Mutations
 
 ```sh
 cd mutateRandom/
